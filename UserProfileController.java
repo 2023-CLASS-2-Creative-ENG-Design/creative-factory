@@ -24,9 +24,8 @@ public class UserProfileController {
 
     @PostMapping("/updateData")
     public void updateData(@RequestBody String newData) {
-        arduinoData = newData;  // 아두이노에서 데이터 업데이트
+        arduinoData += newData + "\n";  // 새로운 데이터를 다음 줄에 추가, 아두이노에서 데이터 업데이트
     }
-
     @Scheduled(fixedRate = 5000) // 5초마다 이 메서드 실행 (필요에 따라 조정)
     public void fetchDataFromArduino() {
         // 아두이노에서 데이터를 가져와서 arduinoData를 업데이트하는 로직을 여기에 구현
