@@ -20,6 +20,11 @@ const int light_ur = A1;        //Upper Right
 const int light_ll = A2;        //Lower Left
 const int light_lr = A3;        //Lower Right
 
+const int voltagePin = A4;      // Voltage sensor pin
+int v_sensed;  // 변수: 아날로그 센서의 읽은 값
+int voltage;   // 변수: 계산된 전압 값
+
+
 void setup() {
   Serial.begin(9600);
   horizontal.attach(SERVOPINH);
@@ -66,6 +71,14 @@ void loop()  {
         servo_h++;
     horizontal.write(servo_h);
   }
+
+
+  float TEMP;  // 변수: 임시로 사용되는 부동 소수점 변수
+  v_sensed = analogRead(voltagePin);  // 아날로그 핀 A4에서 값 읽기
+  TEMP = v_sensed / 4.092;   // 읽은 값을 임시 변수에 저장하고 변환
+  v_sensed = (int)TEMP;      // 변환된 값을 정수로 변환
+  // 전압 값을 계산: (전압 값 * 100) / 10
+  voltage = ((v_sensed * 100) / 10);
   
   delay(DELAYTIME);
 }
