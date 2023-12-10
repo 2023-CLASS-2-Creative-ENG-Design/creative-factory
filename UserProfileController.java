@@ -51,7 +51,6 @@ public class UserProfileController {
 
     private double getMeasurementValueFromArduino() {
         // 여기에 아두이노에서 값을 가져오는 로직을 구현
-        // 아래는 예시로 1.0을 반환하는 코드
         return 1.0;
     }
 
