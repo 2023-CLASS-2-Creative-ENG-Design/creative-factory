@@ -24,7 +24,7 @@
 
 **사진**
 
-<img src="https://github.com/2023-CLASS-2-Creative-ENG-Design/creative-factory-1/assets/128020749/06cd5c2c-b8d9-42d0-9f0a-da019d40bfe5.png" width="300" height="400"/> | <img src="https://github.com/2023-CLASS-2-Creative-ENG-Design/creative-factory-1/assets/128020749/2f30c97d-91c3-44e3-b986-97c65209aa74.png" width="300" height="400"/> | <img src="https://github.com/2023-CLASS-2-Creative-ENG-Design/creative-factory-1/assets/128020749/2f30c97d-91c3-44e3-b986-97c65209aa74.png" width="300" height="400"/>
+<img src="https://github.com/2023-CLASS-2-Creative-ENG-Design/creative-factory-1/assets/128020749/06cd5c2c-b8d9-42d0-9f0a-da019d40bfe5.png" width="300" height="400"/> | <img src="https://github.com/2023-CLASS-2-Creative-ENG-Design/creative-factory-1/assets/128020749/2f30c97d-91c3-44e3-b986-97c65209aa74.png" width="300" height="400"/> 
 
 **영상**
 
